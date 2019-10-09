@@ -143,4 +143,5 @@ main{
   border-top: 50px solid transparent;
   border-left: 100px solid powderblue;
   border-bottom: 50px solid transparent;
+  text-align: left;
 }
