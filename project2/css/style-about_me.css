@@ -132,7 +132,7 @@ main{
 
 #kids_pic {
   width: 50%;
-  display: inline;
+  /*display: inline;*/
   float: right;
   margin-top: 10px;
 }
