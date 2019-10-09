@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
+
+header{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  min-width: 650px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  float: none;
+}
+
+header img{
+  object-fit: cover;
+  object-position: top;
+  width: 100px;
+  height: 100px;
+}
+
+header * {
+  display: inline;
+  font-size: 17px;
+}
+
+header li {
+  margin: 25px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+h1{
+  background-color: black;
+  color: white;
+  height: 90px;
+  min-width: 200px;
+  padding-top: 10px;
+  position: relative;
+}
+h1 span {
+  display: block;
+}
+
+h2{
+  margin-bottom: 25px;
+  margin-right: 5%;
+  color: white;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 35px;
+  color: white;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 65px;
+  color: white;
+}
+
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: white;
+}
+
+footer {
+  font-family: sans-serif;
+  font-size: 14px
+  margin-top: 65px;
+  margin-right: 0;
+  margin-left: 0;
+  color: white;
+}
+
+body {
+  height: 125vh;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #5a6773;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main{
+  color: white;
+}
+
+.intro_block {
+  display: inline;
+}
+.experience {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.stats *{
+  display: inline;
+  float:left;
+  padding: 5px;
+}
+
+.training {
+  background-color: #5a6773;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.training * {
+  display: block;
+}
+
+#head_name {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+   font-size: 52px;
+   float: left;
+ }
+
+#page_title {
+   font-weight: 100;
+   font-size: 30px;
+   display: block;
+ }
+
+#headshot {
+  padding-top: 10PX;
+  width: 50%;
+  float: right;
+  display: table;
+}
+
+#training_label {
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-top: 10px;
+}
