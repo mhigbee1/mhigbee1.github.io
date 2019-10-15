@@ -141,10 +141,10 @@ main{
  }
 
 #page_title {
-   font-weight: 100;
-   font-size: 30px;
-   display: block;
- }
+  font-weight: 100;
+  font-size: 30px;
+  display: block;
+}
 
 #headshot {
   padding-top: 10PX;
