@@ -89,6 +89,7 @@ body {
 .experience {
   float: left;
   width: 50%;
+  font-size: 19px;
 }
 .row:after {
   content: "";
