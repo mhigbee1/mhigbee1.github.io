@@ -43,6 +43,7 @@ h1{
   min-width: 200px;
   padding-top: 10px;
   position: relative;
+  font-size: 2em;
 }
 h1 span {
   display: block;
