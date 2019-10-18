@@ -43,9 +43,6 @@ h1{
   padding-top: 10px;
   position: relative;
 }
-h1 span {
-  display: block;
-}
 
 h2{
   margin-bottom: 25px;
@@ -121,7 +118,11 @@ body {
    font-weight: 900;
    font-size: 52px;
    float: left;
- }
+}
+
+#second_line {
+   display: block;
+}
 
 #page_title {
   font-weight: 100;

@@ -43,9 +43,6 @@ h1{
   padding-top: 10px;
   position: relative;
 }
-h1 span {
-  display: block;
-}
 
 h2{
   margin-bottom: 25px;
@@ -112,7 +109,7 @@ div.work_experience {
   margin-right: 5%;
 }
 
-span.employment_dates {
+div.employment_dates {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 14px;
@@ -125,7 +122,7 @@ div.education {
   margin-right: 5%;
 }
 
-span.degree {
+div.degree {
   margin-left: 7%;
 }
 
@@ -145,6 +142,10 @@ h4.school {
    font-weight: 900;
    font-size: 52px;
  }
+
+#second_line {
+  display: block;
+}
 
 #page_title {
    font-weight: 100;
