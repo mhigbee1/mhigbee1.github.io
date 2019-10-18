@@ -23,7 +23,6 @@ header img{
 
 header * {
   display: inline;
-  font-size: 17px;
 }
 
 header li {
@@ -43,7 +42,6 @@ h1{
   min-width: 200px;
   padding-top: 10px;
   position: relative;
-  font-size: 2em;
 }
 h1 span {
   display: block;
