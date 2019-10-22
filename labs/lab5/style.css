@@ -45,6 +45,7 @@ footer {
 
 footer span {
   display: block;
+  padding-bottom: 10px;
 }
 
 footer a{
