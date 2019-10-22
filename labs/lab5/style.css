@@ -37,8 +37,8 @@ sup {
 footer {
   color: #C8C8D7;
   position: absolute;
-  padding-top: 5%;
-  padding-bottom: 10px;
+  padding-top: 10vh;
+  padding-bottom: 2vh;
   width: 100%;
   text-align: center;
 }
