@@ -72,7 +72,7 @@ footer span {
   display: block;
 }
 
-.page_title {
+.header_title {
   background-color: black;
   color: white;
   height: 90px;
@@ -89,7 +89,7 @@ footer span {
   margin-inline-end: 0px;
 }
 
-.page_title span {
+.header_title .sub_header {
   display: block;
 }
 
@@ -195,12 +195,13 @@ footer span {
   font-weight: 900;
 }
 
-
+/*
 #page_title {
    font-weight: 100;
    font-size: 30px;
    display: block;
  }
+ */
 
 #low_cont {
   padding-top: 5%;
