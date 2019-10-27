@@ -1,3 +1,4 @@
+@import "resets/normalize.scss";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
 
 header{
@@ -7,11 +8,10 @@ header{
   left: 0;
   right: 0;
   height: 100px;
-  min-width: 650px;
   display: flex;
   align-items: center;
-  box-shadow: 0 0 25px 0 black;
-  float: none;
+  box-shadow: 0 0 1.5em 0 black;
+  z-index: 2;
 }
 
 header img{
@@ -26,80 +26,145 @@ header * {
 }
 
 header li {
-  margin: 25px;
+  margin: 2.0vw;
 }
 
 header li a {
   color: black;
   text-decoration: none;
-  font-size: 1.1em;
+  white-space: nowrap;
+  font-size: 1.188em;
 }
 
-h1{
+body {
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.25em;
+  text-align: justify;
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #5a6773;
+  color: white;
+}
+
+section {
+  z-index: 1;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-size: 1.118em;
+}
+
+footer {
+  margin-top: 4.0em;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0.750em;
+  color: black;
+  background-color: white;
+}
+
+footer span {
+  display: block;
+}
+
+.page_title {
   background-color: black;
   color: white;
   height: 90px;
   min-width: 200px;
   padding-top: 10px;
   position: relative;
+
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-h2{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-}
-
-footer {
-  font-family: sans-serif;
-  font-size: 14px;
-  margin-top: 65px;
-  margin-right: 0;
-  margin-left: 0;
-  background-color: white;
-  display: flex;
-  float: none;
-}
-
-body {
-  height: 125vh;
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  margin-top: 100px;
-  padding: 30px;
-  background-color: #5a6773;
-  color: white;
-}
-
-.top {
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
-  font-size: 19px;
-  text-align: justify;
-}
-
-.top img {
+.page_title span {
   display: block;
-  width: 100%;
+}
+
+.big_pic section {
+  background-image: url('../media/picture_lake.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.big_pic .sub-title {
+  width: 83.3333%;
+}
+
+.top_content {
+  margin: 5%;
+}
+
+.lower_content section {
+  background-image: url('../media/soccer_ball.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.lower_content section p {
+  margin-left: 50%;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.lower_content p {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .pic_block {
-  display: inline;
+  display: flex;
+}
+
+.pic_block_txt {
+  margin-left: 5%;
+  margin-right: 5%;
   width: 45%;
-  float: left;
+}
+
+.fam_pic {
+  width: 45%;
+  height: 48%;
+  background-color: white;
+  box-shadow: 0 0.250em 0.5em #000000, 0 0.375em 1.250em #000000;
+  margin: 5%;
+  border-radius: 0.375em;
+  padding: 0.625em;
+}
+
+.polariod {
+  text-align: center;
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.8em;
 }
 
 .movie_container {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
-  border-top: 100px solid black;
-  border-bottom: 100px solid black;
-  border-left: 20px solid black;
-  border-right: 20px solid black;
+  border-top: 20vh solid black;
+  border-bottom: 20vh solid black;
+  border-left: 7vw solid black;
+  border-right: 7vw solid black;
 }
-
 .mov_frame {
   position: absolute;
   top: 0;
@@ -109,33 +174,40 @@ body {
   border: 0;
 }
 
-#head_name {
+#quote{
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 52px;
+  margin-top: 40%;
+  margin-bottom: 20%;
+  font-size: 5.0vw;
+  line-height: 1.2em;
+  text-align: left;
 }
 
-#second_line {
+#q_author {
+  font-size: 3.5vw;
   display: block;
+  text-align: right;
 }
+
+#hooked {
+  font-size: 1.385em;
+  font-weight: 900;
+}
+
 
 #page_title {
-  font-weight: 100;
-  font-size: 30px;
-  display: block;
+   font-weight: 100;
+   font-size: 30px;
+   display: block;
+ }
+
+#low_cont {
+  padding-top: 5%;
 }
 
 #kids_pic {
-  width: 50%;
-  float: right;
-  margin-top: 10px;
-}
-
-#start {
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid powderblue;
-  border-bottom: 50px solid transparent;
-  text-align: left;
+  width: 100%;
+  border-radius: 0.188em;
+  border: 1px solid #6F6F6F;
 }
