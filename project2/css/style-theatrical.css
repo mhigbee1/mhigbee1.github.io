@@ -42,6 +42,7 @@ h3{
   font-size: 1.500em;
   font-weight: 900;
   margin-top: 8vh;
+  padding-bottom: 1.5vh;
 }
 
 footer {
@@ -102,8 +103,9 @@ figure img {
 
 
 .roles {
-    display: block;
-    list-style-type: square;
+  display: block;
+  list-style-type: square;
+  padding-left: 1.2em;
 }
 
 
