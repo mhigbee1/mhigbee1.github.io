@@ -94,10 +94,6 @@ figure img {
   font-size: 2em;
   line-height: 1.2em;
   font-weight: bold;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .header_title .sub_title {
@@ -107,7 +103,7 @@ figure img {
 
 .roles {
     display: block;
-    list-style-type: disc;
+    list-style-type: square;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
