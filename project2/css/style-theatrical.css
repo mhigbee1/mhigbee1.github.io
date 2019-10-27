@@ -83,7 +83,7 @@ figure img {
 }
 
 
-.page_title {
+.header_title {
   background-color: black;
   color: white;
   height: 90px;
@@ -100,7 +100,7 @@ figure img {
   margin-inline-end: 0px;
 }
 
-.page_title span {
+.header_title .sub_title {
   display: block;
 }
 
