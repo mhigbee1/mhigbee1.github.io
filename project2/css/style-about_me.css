@@ -1,4 +1,3 @@
-@import "resets/normalize.scss";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
 
 header{
@@ -7,27 +6,44 @@ header{
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 2.38em;
   display: flex;
+  justify-content: center;
   align-items: center;
-  box-shadow: 0 0 1.5em 0 black;
+  box-shadow: 0 0 1.25em 0 black;
   z-index: 2;
 }
 
-header img{
+
+.pic_n_title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 0;
+  position: fixed;
+  top: 2.35em;
+  z-index: 2;
+}
+
+.pic_n_title img{
   object-fit: cover;
   object-position: top;
-  width: 100px;
-  height: 100px;
+  width: 5.88em;
+  height: 5.88em;
 }
+
 
 header * {
   display: inline;
+  padding: 0;
 }
 
+
 header li {
-  margin: 2.0vw;
+  margin: 1em;
 }
+
 
 header li a {
   color: black;
@@ -36,26 +52,32 @@ header li a {
   font-size: 1.188em;
 }
 
+
 body {
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   line-height: 1.25em;
   text-align: justify;
-  margin-top: 100px;
+  margin-top: 2.38em;
   margin-left: 0;
   margin-right: 0;
   background-color: #5a6773;
   color: white;
 }
 
+
 section {
   z-index: 1;
 }
 
+
 p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
   font-size: 1.118em;
 }
+
 
 footer {
   margin-top: 4.0em;
@@ -66,16 +88,18 @@ footer {
   background-color: white;
 }
 
+
 footer span {
   display: block;
 }
 
+
 .header_title {
   background-color: black;
   color: white;
-  height: 90px;
-  min-width: 200px;
-  padding-top: 10px;
+  height: 2.35em;
+  padding: 10px;
+  margin: 0;
   position: relative;
 
   font-size: 2em;
@@ -83,9 +107,11 @@ footer span {
   font-weight: bold;
 }
 
-.header_title .sub_header {
+
+.header_title .sub_title {
   display: block;
 }
+
 
 .big_pic section {
   background-image: url('../media/picture_lake.jpg');
@@ -96,13 +122,16 @@ footer span {
   justify-content: center;
 }
 
+
 .big_pic .sub-title {
   width: 83.3333%;
 }
 
+
 .top_content {
   margin: 5%;
 }
+
 
 .lower_content section {
   background-image: url('../media/soccer_ball.jpg');
@@ -113,25 +142,30 @@ footer span {
   flex-direction: column;
 }
 
+
 .lower_content section p {
   margin-left: 50%;
   text-shadow: 2px 2px 3px #000000;
 }
+
 
 .lower_content p {
   margin-left: 5%;
   margin-right: 5%;
 }
 
+
 .pic_block {
   display: flex;
 }
+
 
 .pic_block_txt {
   margin-left: 5%;
   margin-right: 5%;
   width: 45%;
 }
+
 
 .fam_pic {
   width: 45%;
@@ -143,12 +177,14 @@ footer span {
   padding: 0.625em;
 }
 
+
 .polariod {
   text-align: center;
   color: black;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.8em;
 }
+
 
 .movie_container {
   position: relative;
@@ -159,6 +195,8 @@ footer span {
   border-left: 7vw solid black;
   border-right: 7vw solid black;
 }
+
+
 .mov_frame {
   position: absolute;
   top: 0;
@@ -167,6 +205,7 @@ footer span {
   height: 100%;
   border: 0;
 }
+
 
 #quote{
   font-family: 'Roboto', sans-serif;
@@ -178,28 +217,24 @@ footer span {
   text-align: left;
 }
 
+
 #q_author {
   font-size: 3.5vw;
   display: block;
   text-align: right;
 }
 
+
 #hooked {
   font-size: 1.385em;
   font-weight: 900;
 }
 
-/*
-#page_title {
-   font-weight: 100;
-   font-size: 30px;
-   display: block;
- }
- */
 
 #low_cont {
   padding-top: 5%;
 }
+
 
 #kids_pic {
   width: 100%;
