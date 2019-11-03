@@ -122,20 +122,6 @@ footer span {
   display: block;
 }
 
-/*
-.header_title {
-  background-color: black;
-  color: white;
-  height: 1.76em;
-  padding: 0.59em;
-  margin: 0;
-  position: relative;
-
-  font-size: 2em;
-  line-height: 1.2em;
-  font-weight: bold;
-}
-*/
 
 .header_title .sub_title {
   display: block;
