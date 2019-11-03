@@ -11,6 +11,7 @@ header {
   flex-direction: row;
   height: 5.88em;
 }
+
 nav ul li a {
   display: block;
   align-items: center;
@@ -121,7 +122,7 @@ footer span {
   display: block;
 }
 
-
+/*
 .header_title {
   background-color: black;
   color: white;
@@ -134,7 +135,7 @@ footer span {
   line-height: 1.2em;
   font-weight: bold;
 }
-
+*/
 
 .header_title .sub_title {
   display: block;
