@@ -10,8 +10,8 @@ header {
   display: flex;
   flex-direction: row;
   height: 5.88em;
+  z-index: 2;
 }
-
 nav ul li a {
   display: block;
   align-items: center;
@@ -50,7 +50,7 @@ nav {
 
 
 h1 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   background-color: black;
   color: white;
   padding: 0.25em 0;
@@ -121,6 +121,7 @@ footer {
 footer span {
   display: block;
 }
+
 
 
 .header_title .sub_title {

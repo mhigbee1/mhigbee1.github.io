@@ -1,51 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
 
-header{
-  background-color: white;
+header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 40px;
-  width: 1140px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  z-index: 2;
+}
+nav ul li a {
+  display: block;
+  align-items: center;
+  padding: 7.31px 29.75px;
+  font-size: 19px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li :hover {
+  background-color: #DCDCDC;
+}
+
+nav ul {
   display: flex;
   justify-content: center;
-  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: white;
   box-shadow: 0 0 21.25px 0 black;
   z-index: 2;
 }
 
-.pic_n_title {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: row;
-  margin-top: 0;
-  position: fixed;
-  top: 40px;
-  z-index: 2;
+
+h1 {
+  font-family: 'Roboto';
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  margin: 0;
+
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: bold;
 }
 
-.pic_n_title img{
+h1 .sub_title {
+  display: block;
+}
+
+.pic_container img{
   object-fit: cover;
-  object-position: top;
+  object-position: 0 -17px;
+  width: 100%;
+}
+
+.pic_container {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
   width: 100px;
   height: 100px;
-}
-
-header * {
-  display: inline;
-}
-
-header li {
-  margin: 20px;
-}
-
-header li a {
-  color: black;
-  text-decoration: none;
-  white-space: nowrap;
-  font-size: 20.20px;
 }
 
 h3{
@@ -127,26 +158,6 @@ p {
     padding-left: 42.5px;
     padding-right: 57.05px
 }
-
-.header_title {
-  background-color: black;
-  color: white;
-  height: 83px;
-  min-width: 200px;
-  padding-top: 17px;
-  position: relative;
-
-  font-size: 34px;
-  line-height: 20.4px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.header_title .sub_title {
-  padding-top: 19px;
-  display: block;
-}
-
 
 .description {
   width: 969.85px;
