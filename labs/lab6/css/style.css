@@ -1,0 +1,82 @@
+/*Lab 6 ITMD-361*?
+/*Matt Higbee*/
+/*stylesheet*/
+
+
+/*&&&&&&&& NAVBAR &&&&&&&&*/
+
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#navbar-container {
+  display: block;
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+#navbar-container ul{
+  float: left;
+  position: relative;
+  right: 50%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#navbar-container li {
+  float: left;
+}
+
+#navbar-container li a{
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#navbar-container li :hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+  color: #fff;
+}
+
+
+/*&&&&&&& SIDEBAR &&&&&&&&*/
+
+#sidebar {
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  right: 0%;
+}
+
+#sidebar-container {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#sidebar-container ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#sidebar-container li a{
+  display: block;
+  color: #fff;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+#sidebar-container ul li :hover{
+  background-color: #000;
+}
