@@ -1,9 +1,10 @@
 /*stylesheet for index2.html*/
-
+/*
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-top: 10em;
 }
 
 
@@ -32,3 +33,133 @@
     max-width: 100%;
   }
 }
+*/
+/*$$$$$$$$$$$ MENU TESTER    $$$$$$$$$$$$$$$$$$*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #site_inks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a .icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+
+/*
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
+
+nav ul li a {
+    display: block;
+    align-items: center;
+    padding: .5em .5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li :hover {
+    background-color: #DCDCDC;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    position: fixed;
+    top: 5.58em;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+    z-index: 2;
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+h1 {
+  font-family: 'Roboto';
+  background-color: white;
+  color: orange;
+  position: relative;
+  margin: 0 0 0 10px;
+
+  font-size: 3.58em;
+  font-weight: bold;
+}
+
+h1 .sub_title {
+  display: block;
+}
+
+.pic_container img{
+  object-fit: cover;
+  width:  auto;
+  height: 3.58em;
+}
+
+.pic_container {
+  overflow: hidden;
+  padding: 5px 0 0 0;
+  margin: 0;
+  width: 3.58em;
+}
+*/
