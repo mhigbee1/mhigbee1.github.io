@@ -1,6 +1,4 @@
-/*google map stylesheet*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap');
-
 html,
 body {
   height: 100%;
@@ -93,7 +91,6 @@ h1 .sub_title {
   width: 5.88em;
   height: 5.88em;
 }
-
 
 #heading {
   position: relative;

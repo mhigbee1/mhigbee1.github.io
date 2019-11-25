@@ -1,5 +1,3 @@
-//google map js
-
 function init() {
   var el = document.getElementById('map');
   var myLocation = new google.maps.LatLng(41.932112, -87.688162);
