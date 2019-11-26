@@ -251,7 +251,7 @@ footer span {
 
 @keyframes fade {
   from {
-    opacity: .4s
+    opacity: 0.4
   }
   to {
     opacity: 1
